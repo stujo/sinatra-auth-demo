@@ -1,0 +1,9 @@
+<h1>Login</h1>
+<div class="errors">
+  <%= @session_error %>
+</div>
+<form action="/session" method="post">
+  <input type="email" name="session[email]" placeholder="Email Address">
+  <input type="password" name="session[password]" placeholder="Password">
+  <input type="submit" value="Login">
+</form>

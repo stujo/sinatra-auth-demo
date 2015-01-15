@@ -1,0 +1,21 @@
+.header {
+    padding: 5px;
+    margin: 0;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #333;
+}
+
+.header a{
+    padding-right: 10px;
+}
+
+.content {
+    padding: 5px;
+    min-height: 320px;
+}
+
+
+.debug {
+    border-top: 1px solid #333;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter';
+}
